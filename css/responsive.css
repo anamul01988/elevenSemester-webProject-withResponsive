@@ -1,0 +1,147 @@
+
+   /* ==========================================================================
+      Author's custom styles
+      ========================================================================== */
+      /* XL Device :1200px. */
+@media (min-width: 1450px) and (max-width: 1600px) {
+
+	
+
+}
+
+@media (min-width: 1200px) and (max-width: 1449px) {
+
+	
+
+}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.header-top-left li, .header-top-right li {
+		font-size: 13px;
+	}
+	/* //for regestration */
+	.form-left h1 {
+		font-size: 68px;
+	}
+	ul.count-down li {
+		margin-right: 18px;
+	}
+	/* for event */
+	li.month.july {
+		padding-left: 24px;
+	}
+	li.month.august {
+		padding-left: 20px;
+	}
+
+}
+ 
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+	.header-top-left li, .header-top-right li {
+		font-size: 11px;
+		padding: 4px;
+	}
+	.footer-left span {
+		font-size: 10px;
+	}
+	.footer-menu ul li a {
+		margin: 14px;
+		font-size: 10px;
+	}
+	.date:before {
+		right: 11px;
+	}
+
+	/* //for registration: */
+	.form-left h5 {
+		font-size: 21px;
+	}
+	.form-left h1 {
+		font-size: 49px;
+	}
+	ul.count-down li {
+		height: auto;
+		width: 91px;
+		padding: 3px;
+		margin-right: 2px;
+		font-size: 37px;
+	}
+	ul.count-down li span {
+		font-size: 11px;
+		padding-bottom: 10px;
+	}
+	.form-right h4 {
+		font-size: 19px;
+	}
+	.form-right:before {
+		top: -19%;
+		left: -29px;
+	}
+}
+ 
+/* Extra small Device. */
+@media (max-width: 767px) {
+	.header-top {
+		display: none;
+	}
+	.footer-left span {
+
+		font-size: 5px;
+
+	}
+	.footer-menu ul li a {
+		
+		margin: 3px;
+		font-size: 5px;
+	}
+	.form-left h1 {
+		font-size: 53px;
+	}
+	ul.count-down li {
+		margin-bottom: 15px;
+	}
+	.event-content p {
+		display: none;
+	}
+	/* .event-content p {
+		visibility: hidden!important;
+	} */
+		
+}
+ 
+/* SM Small Device :550px. */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+	.footer-left span {
+		font-size: 7px;
+	}
+	.footer-menu ul li a {
+		margin: 10px;
+		font-size: 7px;
+	
+	}
+	.form-left h1 {
+		font-size: 53px;
+	}
+	ul.count-down li {
+		height: 97px;
+		width: 96px;
+		margin-right: 27px;
+		font-size: 33px;
+	}
+	.form-right {
+		margin-top: 20px;
+	}
+	.form-right:before {
+		height: 45%;
+	}
+	.event-content h3 a {
+		font-weight: 400;
+		font-size: 13px;
+	}
+	.event-content p {
+		display: none;
+	}
+}
